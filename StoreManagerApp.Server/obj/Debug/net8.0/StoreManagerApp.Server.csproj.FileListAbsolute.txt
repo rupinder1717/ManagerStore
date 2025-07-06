@@ -492,3 +492,4 @@ C:\Users\rupin\source\repos\ManagerStore\StoreManagerApp.Server\obj\Debug\net8.0
 C:\Users\rupin\source\repos\ManagerStore\StoreManagerApp.Server\obj\Debug\net8.0\StoreManagerApp.Server.pdb
 C:\Users\rupin\source\repos\ManagerStore\StoreManagerApp.Server\obj\Debug\net8.0\StoreManagerApp.Server.genruntimeconfig.cache
 C:\Users\rupin\source\repos\ManagerStore\StoreManagerApp.Server\obj\Debug\net8.0\ref\StoreManagerApp.Server.dll
+C:\Users\rupin\source\repos\ManagerStore\StoreManagerApp.Server\obj\Debug\net8.0\StoreManagerApp.Server.sourcelink.json

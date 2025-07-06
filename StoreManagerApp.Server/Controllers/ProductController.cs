@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using StoreManagerApp.Server.Data;
 using StoreManagerApp.Server.Dtos;
-using StoreManagerApp.Server.Models;
+using StoreManagerApp.Server.Services;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace StoreManagerApp.Server.Controllers
 {
@@ -10,27 +11,19 @@ namespace StoreManagerApp.Server.Controllers
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IProductService _productService;
 
-        public ProductController(AppDbContext context)
+        public ProductController(IProductService productService)
         {
-            _context = context;
+            _productService = productService;
         }
 
-        // GET: api/product
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetAll()
         {
             try
             {
-                var products = await _context.Products
-                    .Select(p => new ProductDto
-                    {
-                        Id = p.Id,
-                        Name = p.Name,
-                        Price = p.Price
-                    }).ToListAsync();
-
+                var products = await _productService.GetAllProductsAsync();
                 return Ok(products);
             }
             catch (Exception ex)
@@ -39,24 +32,14 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // GET: api/product/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductDto>> GetById(int id)
         {
             try
             {
-                var product = await _context.Products.FindAsync(id);
-                if (product == null)
-                    return NotFound();
-
-                var dto = new ProductDto
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    Price = product.Price
-                };
-
-                return Ok(dto);
+                var product = await _productService.GetProductByIdAsync(id);
+                if (product == null) return NotFound();
+                return Ok(product);
             }
             catch (Exception ex)
             {
@@ -64,29 +47,13 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // POST: api/product
         [HttpPost]
         public async Task<ActionResult<ProductDto>> Create([FromBody] CreateProductDto dto)
         {
             try
             {
-                var product = new Product
-                {
-                    Name = dto.Name,
-                    Price = dto.Price
-                };
-
-                _context.Products.Add(product);
-                await _context.SaveChangesAsync();
-
-                var result = new ProductDto
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    Price = product.Price
-                };
-
-                return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+                var createdProduct = await _productService.CreateProductAsync(dto);
+                return CreatedAtAction(nameof(GetById), new { id = createdProduct.Id }, createdProduct);
             }
             catch (Exception ex)
             {
@@ -94,30 +61,17 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // PUT: api/product/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] ProductDto dto)
         {
             try
             {
-                if (id != dto.Id)
-                    return BadRequest("ID mismatch");
+                if (id != dto.Id) return BadRequest("ID mismatch");
 
-                var product = await _context.Products.FindAsync(id);
-                if (product == null)
-                    return NotFound();
+                var updatedProduct = await _productService.UpdateProductAsync(id, dto);
+                if (updatedProduct == null) return NotFound();
 
-                product.Name = dto.Name;
-                product.Price = dto.Price;
-
-                await _context.SaveChangesAsync();
-
-                return Ok(new ProductDto
-                {
-                    Id = product.Id,
-                    Name = product.Name,
-                    Price = product.Price
-                });
+                return Ok(updatedProduct);
             }
             catch (Exception ex)
             {
@@ -125,18 +79,13 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // DELETE: api/product/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             try
             {
-                var product = await _context.Products.FindAsync(id);
-                if (product == null)
-                    return NotFound();
-
-                _context.Products.Remove(product);
-                await _context.SaveChangesAsync();
+                var deleted = await _productService.DeleteProductAsync(id);
+                if (!deleted) return NotFound();
 
                 return NoContent();
             }

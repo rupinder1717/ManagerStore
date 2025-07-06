@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using StoreManagerApp.Server.Data;
 using StoreManagerApp.Server.Dtos;
-using StoreManagerApp.Server.Models;
+using StoreManagerApp.Server.Services;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace StoreManagerApp.Server.Controllers
 {
@@ -10,11 +11,11 @@ namespace StoreManagerApp.Server.Controllers
     [Route("api/[controller]")]
     public class StoreController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly IStoreService _storeService;
 
-        public StoreController(AppDbContext context)
+        public StoreController(IStoreService storeService)
         {
-            _context = context;
+            _storeService = storeService;
         }
 
         // GET: api/store
@@ -23,14 +24,7 @@ namespace StoreManagerApp.Server.Controllers
         {
             try
             {
-                var stores = await _context.Stores
-                    .Select(s => new StoreDto
-                    {
-                        Id = s.Id,
-                        Name = s.Name,
-                        Address = s.Address
-                    }).ToListAsync();
-
+                var stores = await _storeService.GetAllStoresAsync();
                 return Ok(stores);
             }
             catch (Exception ex)
@@ -39,29 +33,23 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
+        // GET: api/store/{id}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<StoreDto>> GetById(int id)
+        {
+            var store = await _storeService.GetStoreByIdAsync(id);
+            if (store == null) return NotFound();
+            return Ok(store);
+        }
+
         // POST: api/store
         [HttpPost]
         public async Task<ActionResult<StoreDto>> Create([FromBody] CreateStoreDto dto)
         {
             try
             {
-                var store = new Store
-                {
-                    Name = dto.Name,
-                    Address = dto.Address
-                };
-
-                _context.Stores.Add(store);
-                await _context.SaveChangesAsync();
-
-                var result = new StoreDto
-                {
-                    Id = store.Id,
-                    Name = store.Name,
-                    Address = store.Address
-                };
-
-                return CreatedAtAction(nameof(GetAll), new { id = result.Id }, result);
+                var createdStore = await _storeService.CreateStoreAsync(dto);
+                return CreatedAtAction(nameof(GetById), new { id = createdStore.Id }, createdStore);
             }
             catch (Exception ex)
             {
@@ -77,20 +65,10 @@ namespace StoreManagerApp.Server.Controllers
             {
                 if (id != dto.Id) return BadRequest("ID mismatch");
 
-                var store = await _context.Stores.FindAsync(id);
-                if (store == null) return NotFound();
+                var updatedStore = await _storeService.UpdateStoreAsync(id, dto);
+                if (updatedStore == null) return NotFound();
 
-                store.Name = dto.Name;
-                store.Address = dto.Address;
-
-                await _context.SaveChangesAsync();
-
-                return Ok(new StoreDto
-                {
-                    Id = store.Id,
-                    Name = store.Name,
-                    Address = store.Address
-                });
+                return Ok(updatedStore);
             }
             catch (Exception ex)
             {
@@ -104,11 +82,8 @@ namespace StoreManagerApp.Server.Controllers
         {
             try
             {
-                var store = await _context.Stores.FindAsync(id);
-                if (store == null) return NotFound();
-
-                _context.Stores.Remove(store);
-                await _context.SaveChangesAsync();
+                var deleted = await _storeService.DeleteStoreAsync(id);
+                if (!deleted) return NotFound();
 
                 return NoContent();
             }

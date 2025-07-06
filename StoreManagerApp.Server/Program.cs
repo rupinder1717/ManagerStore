@@ -1,33 +1,41 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using StoreManagerApp.Server.Data;
+using StoreManagerApp.Server.Services;
 using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
 builder.Services.AddControllers();
+builder.Services.AddScoped<IStoreService, StoreService>();
+builder.Services.AddScoped<ISaleService, SaleService>();
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+
+// Add Swagger/OpenAPI support
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Register AppDbContext using SQLite
+// Register AppDbContext with SQLite provider
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-//  Correct CORS origin based on your frontend port
+// Setup CORS policy to allow your React frontend (adjust port as needed)
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactClient", policy =>
     {
-        policy.WithOrigins("https://localhost:53302") // ✅ Match your React app port
+        policy.WithOrigins("https://localhost:53302")  // Adjust your React app URL/port
               .AllowAnyHeader()
-              .AllowAnyMethod();
+              .AllowAnyMethod()
+              .AllowCredentials();  // Optional
     });
 });
 
 var app = builder.Build();
 
-// ✅ Global Exception Handler Middleware
+// Global Exception Handler Middleware
 app.UseExceptionHandler(appError =>
 {
     appError.Run(async context =>
@@ -50,18 +58,17 @@ app.UseExceptionHandler(appError =>
     });
 });
 
-// Serve static files (if using React build)
+// Serve static files for SPA (React build)
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-// Use Swagger in development
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-// ✅ Enable CORS early in the pipeline
+// Enable CORS before routing
 app.UseCors("AllowReactClient");
 
 app.UseHttpsRedirection();
@@ -70,7 +77,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// Fallback for React Router
-app.MapFallbackToFile("/index.html");
+// Fallback to index.html for React Router SPA routes
+app.MapFallbackToFile("index.html");
 
 app.Run();
+

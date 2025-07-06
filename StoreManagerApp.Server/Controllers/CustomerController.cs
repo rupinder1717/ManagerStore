@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using StoreManagerApp.Server.Data;
-using StoreManagerApp.Server.Models;
+using StoreManagerApp.Server.Dtos;
+using StoreManagerApp.Server.Services;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace StoreManagerApp.Server.Controllers
 {
@@ -9,16 +11,18 @@ namespace StoreManagerApp.Server.Controllers
     [Route("api/[controller]")]
     public class CustomerController : ControllerBase
     {
-        private readonly AppDbContext _ctx;
-        public CustomerController(AppDbContext ctx) => _ctx = ctx;
+        private readonly ICustomerService _customerService;
+        public CustomerController(ICustomerService customerService)
+        {
+            _customerService = customerService;
+        }
 
-        // GET: api/customer
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Customer>>> GetAll()
+        public async Task<ActionResult<IEnumerable<CustomerDto>>> GetAll()
         {
             try
             {
-                var customers = await _ctx.Customers.ToListAsync();
+                var customers = await _customerService.GetAllCustomersAsync();
                 return Ok(customers);
             }
             catch (Exception ex)
@@ -27,13 +31,12 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // GET: api/customer/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<Customer>> Get(int id)
+        public async Task<ActionResult<CustomerDto>> Get(int id)
         {
             try
             {
-                var customer = await _ctx.Customers.FindAsync(id);
+                var customer = await _customerService.GetCustomerByIdAsync(id);
                 return customer == null ? NotFound() : Ok(customer);
             }
             catch (Exception ex)
@@ -42,19 +45,16 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // POST: api/customer
         [HttpPost]
-        public async Task<ActionResult<Customer>> Create(Customer customer)
+        public async Task<ActionResult<CustomerDto>> Create([FromBody] CreateCustomerDto dto)
         {
             try
             {
                 if (!ModelState.IsValid)
                     return BadRequest(ModelState);
 
-                _ctx.Customers.Add(customer);
-                await _ctx.SaveChangesAsync();
-
-                return CreatedAtAction(nameof(Get), new { id = customer.Id }, customer);
+                var createdCustomer = await _customerService.CreateCustomerAsync(dto);
+                return CreatedAtAction(nameof(Get), new { id = createdCustomer.Id }, createdCustomer);
             }
             catch (Exception ex)
             {
@@ -62,24 +62,19 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // PUT: api/customer/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, Customer updated)
+        public async Task<IActionResult> Update(int id, [FromBody] CustomerDto dto)
         {
             try
             {
-                if (!ModelState.IsValid || id != updated.Id)
+                if (!ModelState.IsValid || id != dto.Id)
                     return BadRequest();
 
-                var customer = await _ctx.Customers.FindAsync(id);
-                if (customer == null)
+                var updatedCustomer = await _customerService.UpdateCustomerAsync(id, dto);
+                if (updatedCustomer == null)
                     return NotFound();
 
-                customer.Name = updated.Name;
-                customer.Address = updated.Address;
-
-                await _ctx.SaveChangesAsync();
-                return Ok(customer);
+                return Ok(updatedCustomer);
             }
             catch (Exception ex)
             {
@@ -87,18 +82,14 @@ namespace StoreManagerApp.Server.Controllers
             }
         }
 
-        // DELETE: api/customer/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
             try
             {
-                var customer = await _ctx.Customers.FindAsync(id);
-                if (customer == null)
+                var deleted = await _customerService.DeleteCustomerAsync(id);
+                if (!deleted)
                     return NotFound();
-
-                _ctx.Customers.Remove(customer);
-                await _ctx.SaveChangesAsync();
 
                 return NoContent();
             }

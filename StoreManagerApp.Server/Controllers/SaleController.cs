@@ -1,8 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using StoreManagerApp.Server.Data;
 using StoreManagerApp.Server.Dtos;
-using StoreManagerApp.Server.Models;
+using StoreManagerApp.Server.Services;
 
 namespace StoreManagerApp.Server.Controllers
 {
@@ -10,135 +8,59 @@ namespace StoreManagerApp.Server.Controllers
     [Route("api/[controller]")]
     public class SaleController : ControllerBase
     {
-        private readonly AppDbContext _context;
+        private readonly ISaleService _saleService;
 
-        public SaleController(AppDbContext context)
+        public SaleController(ISaleService saleService)
         {
-            _context = context;
+            _saleService = saleService;
         }
 
         // GET: api/sale
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<SaleDto>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            try
-            {
-                var sales = await _context.Sales
-                    .Include(s => s.Product)
-                    .Include(s => s.Customer)
-                    .Include(s => s.Store)
-                    .Select(s => new SaleDto
-                    {
-                        Id = s.Id,
-                        ProductId = s.ProductId,
-                        ProductName = s.Product.Name,
-                        CustomerId = s.CustomerId,
-                        CustomerName = s.Customer.Name,
-                        StoreId = s.StoreId,
-                        StoreName = s.Store.Name,
-                        Date = s.Date,
-                        Quantity = s.Quantity
-                    })
-                    .ToListAsync();
-
-                return Ok(sales);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Failed to load sales", error = ex.Message });
-            }
+            var sales = await _saleService.GetAllAsync();
+            return Ok(sales);
         }
 
         // POST: api/sale
         [HttpPost]
-        public async Task<ActionResult<SaleDto>> Create([FromBody] CreateSaleDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateSaleDto dto)
         {
-            try
-            {
-                var sale = new Sale
-                {
-                    ProductId = dto.ProductId,
-                    CustomerId = dto.CustomerId,
-                    StoreId = dto.StoreId,
-                    Date = dto.Date,
-                    Quantity = dto.Quantity
-                };
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-                _context.Sales.Add(sale);
-                await _context.SaveChangesAsync();
-
-                var createdSale = await _context.Sales
-                    .Include(s => s.Product)
-                    .Include(s => s.Customer)
-                    .Include(s => s.Store)
-                    .FirstOrDefaultAsync(s => s.Id == sale.Id);
-
-                if (createdSale == null) return NotFound();
-
-                var result = new SaleDto
-                {
-                    Id = createdSale.Id,
-                    ProductId = createdSale.ProductId,
-                    ProductName = createdSale.Product.Name,
-                    CustomerId = createdSale.CustomerId,
-                    CustomerName = createdSale.Customer.Name,
-                    StoreId = createdSale.StoreId,
-                    StoreName = createdSale.Store.Name,
-                    Date = createdSale.Date,
-                    Quantity = createdSale.Quantity
-                };
-
-                return Ok(result);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Failed to create sale", error = ex.Message });
-            }
+            var result = await _saleService.CreateAsync(dto);
+            return Ok(result);
         }
 
         // PUT: api/sale/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] CreateSaleDto dto)
+        public async Task<IActionResult> Update(int id, [FromBody] SaleDto dto)
         {
-            try
-            {
-                var sale = await _context.Sales.FindAsync(id);
-                if (sale == null) return NotFound();
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
-                sale.ProductId = dto.ProductId;
-                sale.CustomerId = dto.CustomerId;
-                sale.StoreId = dto.StoreId;
-                sale.Date = dto.Date;
-                sale.Quantity = dto.Quantity;
+            if (id != dto.Id)
+                return BadRequest("ID mismatch");
 
-                await _context.SaveChangesAsync();
+            var updated = await _saleService.UpdateAsync(id, dto);
+            if (updated == null)
+                return NotFound();
 
-                return Ok(new { message = "Sale updated successfully" });
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Failed to update sale", error = ex.Message });
-            }
+            return Ok(updated);
         }
+
 
         // DELETE: api/sale/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            try
-            {
-                var sale = await _context.Sales.FindAsync(id);
-                if (sale == null) return NotFound();
+            var success = await _saleService.DeleteAsync(id);
+            if (!success)
+                return NotFound();
 
-                _context.Sales.Remove(sale);
-                await _context.SaveChangesAsync();
-
-                return NoContent();
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, new { message = "Failed to delete sale", error = ex.Message });
-            }
+            return NoContent();
         }
     }
 }
