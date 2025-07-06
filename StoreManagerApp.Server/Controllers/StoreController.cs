@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StoreManagerApp.Server.Data;
+using StoreManagerApp.Server.Dtos;
 using StoreManagerApp.Server.Models;
 
 namespace StoreManagerApp.Server.Controllers
@@ -16,39 +17,105 @@ namespace StoreManagerApp.Server.Controllers
             _context = context;
         }
 
+        // GET: api/store
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Store>>> GetAll() =>
-            Ok(await _context.Stores.ToListAsync());
+        public async Task<ActionResult<IEnumerable<StoreDto>>> GetAll()
+        {
+            try
+            {
+                var stores = await _context.Stores
+                    .Select(s => new StoreDto
+                    {
+                        Id = s.Id,
+                        Name = s.Name,
+                        Address = s.Address
+                    }).ToListAsync();
 
+                return Ok(stores);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Failed to load stores", error = ex.Message });
+            }
+        }
+
+        // POST: api/store
         [HttpPost]
-        public async Task<ActionResult<Store>> Create([FromBody] Store store)
+        public async Task<ActionResult<StoreDto>> Create([FromBody] CreateStoreDto dto)
         {
-            _context.Stores.Add(store);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetAll), new { id = store.Id }, store);
+            try
+            {
+                var store = new Store
+                {
+                    Name = dto.Name,
+                    Address = dto.Address
+                };
+
+                _context.Stores.Add(store);
+                await _context.SaveChangesAsync();
+
+                var result = new StoreDto
+                {
+                    Id = store.Id,
+                    Name = store.Name,
+                    Address = store.Address
+                };
+
+                return CreatedAtAction(nameof(GetAll), new { id = result.Id }, result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Failed to create store", error = ex.Message });
+            }
         }
 
+        // PUT: api/store/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] Store store)
+        public async Task<IActionResult> Update(int id, [FromBody] StoreDto dto)
         {
-            if (id != store.Id) return BadRequest();
-            var existing = await _context.Stores.FindAsync(id);
-            if (existing == null) return NotFound();
+            try
+            {
+                if (id != dto.Id) return BadRequest("ID mismatch");
 
-            existing.Name = store.Name;
-            existing.Address = store.Address;
-            await _context.SaveChangesAsync();
-            return NoContent();
+                var store = await _context.Stores.FindAsync(id);
+                if (store == null) return NotFound();
+
+                store.Name = dto.Name;
+                store.Address = dto.Address;
+
+                await _context.SaveChangesAsync();
+
+                return Ok(new StoreDto
+                {
+                    Id = store.Id,
+                    Name = store.Name,
+                    Address = store.Address
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Failed to update store", error = ex.Message });
+            }
         }
 
+        // DELETE: api/store/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var store = await _context.Stores.FindAsync(id);
-            if (store == null) return NotFound();
-            _context.Stores.Remove(store);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            try
+            {
+                var store = await _context.Stores.FindAsync(id);
+                if (store == null) return NotFound();
+
+                _context.Stores.Remove(store);
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Failed to delete store", error = ex.Message });
+            }
         }
     }
 }

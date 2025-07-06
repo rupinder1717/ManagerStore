@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\dtos\\storedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\dtos\\storedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\dtos\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\dtos\\saledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\dtos\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\storemanagerapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\storemanagerapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\public\\vite.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\public\\vite.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\Users\\surpreetsingh\\source\\repos\\StoreManagerApp\\storemanagerapp.client\\src\\components\\Sales\\DeleteConfirmationModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\customers\\customermodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\customers\\customermodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\store\\storelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\store\\storelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\products\\productlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\products\\productlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\sale\\salelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\sale\\salelist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\customers\\deleteconfirmationmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\customers\\deleteconfirmationmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\customers\\customerlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\customers\\customerlist.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\redux\\customerslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\redux\\customerslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\pages\\customerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\pages\\customerpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\appdbcontext.dgml||{295A0962-5A59-4F4F-9E12-6BC670C15C3B}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\appdbcontext.dgml||{295A0962-5A59-4F4F-9E12-6BC670C15C3B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\migrations\\20250629225927_addproductsstoressales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\migrations\\20250629225927_addproductsstoressales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\sale\\salemodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\sale\\salemodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\store\\deleteconfirmationmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\store\\deleteconfirmationmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\products\\productmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\products\\productmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\redux\\productslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\redux\\productslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\redux\\saleslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\redux\\saleslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\store\\storemodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\store\\storemodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\redux\\storeslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\redux\\storeslice.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\redux\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\redux\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\storemanagerapp.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\storemanagerapp.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\pages\\productpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\pages\\productpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\pages\\salepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\pages\\salepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\pages\\storepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\pages\\storepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\models\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.client\\src\\components\\products\\deleteconfirmationmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}|storemanagerapp.client\\storemanagerapp.client.esproj|solutionrelative:storemanagerapp.client\\src\\components\\products\\deleteconfirmationmodal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|c:\\users\\rupin\\source\\repos\\managerstore\\storemanagerapp.server\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15707B77-E304-4CA4-AF40-BC61A20D3D20}|StoreManagerApp.Server\\StoreManagerApp.Server.csproj|solutionrelative:storemanagerapp.server\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreDto.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\StoreDto.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Dtos\\StoreDto.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\StoreDto.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Dtos\\StoreDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:45:55.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleDto.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\SaleDto.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Dtos\\SaleDto.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\SaleDto.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Dtos\\SaleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:45:09.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:44:15.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:29:10.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:49:46.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Controllers\\SaleController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:51:37.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Controllers\\StoreController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAwwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:51:00.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Dtos\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Dtos\\CustomerDto.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Dtos\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T05:42:29.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StoreManagerApp.Server",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\StoreManagerApp.Server.csproj",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\StoreManagerApp.Server.csproj",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\StoreManagerApp.Server.csproj",
+              "RelativeToolTip": "StoreManagerApp.Server\\StoreManagerApp.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-06T05:41:45.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "vite.svg",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\public\\vite.svg",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\public\\vite.svg",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\public\\vite.svg",
+              "RelativeToolTip": "storemanagerapp.client\\public\\vite.svg",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABoAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATvSURBVEhLtZZrbFRFFMd/d193724ppYUt2NKHtCAPoYCAgiAIKiRKAMGGgJpoKIJfRIh\u002BMX4RY0KsIESIWBLU4gdqVURJNCiIiYQIbWmxIFCQllcLTbul3b37uHP8cLfbhaIhMZ5k7kwmM//fmTMzZy78nyYi2p19ANXV1duBNdhj6K3vbKeUHStWrFh7u8q/WHV1tdyr1dbWSlVVlezZs2f7nToAjjs7Uq3XQyWCUoIohRKFUgqlLCzL4sKFCyxduhSl1JqKiop\u002BkLsCkqEAQlELK1hL7PonWJcnYNYMpvtng9BvYxDzUnJsaWkplmWt2bp1622QfnuQvvoL1/opvlh86Ciwmpk3fC9j0k5iXD\u002BPisZxBl5COcbhcJpE/tzGwei7LFu2jFgsRiQSYdeuXfj9/h2rVq1a2w8w9PWvC4dkDqwoKRz8\u002BJOTspmZuYn7Yrvo/NXJUVlCI3NIHzaFl2cU4HJo3Pg0m9OFVbS0tBCJRIhGoxQUFHD16lXKyso0AFef\u002BDf5gYy0/U/MGlc8vyjINH0FaZ0HuXRsNvVj36bB9RDnW7u5\u002BMdlrnV08/YzY/EMn8/kyZMoKCggbIYxvAbZ2dlUVlYmnXaQCEtWxoDd82Y9OLL0gRbPLH0JaWcPcmz/LDZa77PneAZtLZ3kBdIZPb6QuqCDd75txF38AobPR25uLsUjisnJycHn8yX3JQnIyhr49Oj8QNGCojZXiWMl7voGTtYtILD8Oz5eXkL5omImpFm0NjaT7nEzJGcItW1hmhyTQAQQRFNJ0X6AAT7XosWTXZmPGGWaq\u002Bk0J2unU/LKAfKzfAAMS/fy4rRcOjpvMdDhxuFy4vL7\u002BLLmalII0RIwUKoP5gLIG6RPmZm12fB1HeX0pefZlLWOjo\u002BOEbOslNuqMHx\u002BTCcYbifidnPqyk0QQbC1e09M6gpcAKunHc/LVZ9rLQcncnj6e4z3BuxJ2B9bwAZZEQurB2JKYcUtFKAJaNigfgDpGTOzp2ObETyky74Z\u002B7UO52D55cAJTcVjtncCQiIPiaCUQhA0hIcLM9HEjk6vI/0BodaFzmvtzn3WumibleGJRq1brmhP\u002Bg\u002BvzyUWj9kC9jQk4a0NtEMiCWUbagfptk2WrvZHg2f0rh\u002BtpTfONbcLSvyB/PvY8FUjp64EiSuhJxqn8VoXr\u002B2tZ86WI8z\u002B4AhzPzxCVe2VpKCG1pdiUlcQatHGeAaqytq64DhPO4MG\u002BLy\u002BnKI8Il3dbDx0iRs3ghgeJ\u002BnpaRSOKmbKSAdtN7u41dTE4gnDEsuzxe8aImViZS6MvZq3vjugm/GfTtWpwpwR\u002Bf7sIQMoLBnN/YnTF41btNwMEmxtJ97RzuZnJ\u002BB0aH2B/wdzaA6\u002Bb/uMN5vLn2sbTv1TWueZmusNdZyuOcPvNWc50fAXp\u002BrP09RwjuDFZgbFeviotISigD95AJKU3ip1DzSXvKG5mX95C7I7460jlb6yA1ON1sMzcvxkhm/hvnmd4WIyNcvF\u002BsfyqVg5kbxMOx3climlD5QKuKtVVFQcFxGJREwxI6aYpimmGRYzHBYzHBIzHJZwOCThUEjC4R4JpdQiIuXl5UnCPz04kwE8Hh3do6PrOrruRfd60b0GuteL12vgNQy8Xh9GSp2Yn9Tq9\u002BAA7Ny5c7uIrOm9vUop\u002B5TcpZAQTG0DOzZs2HDvPwH/xf4Gb5LkTqfRE7EAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-07-04T10:17:40.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeleteConfirmationModal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Customers\\DeleteConfirmationModal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Customers\\DeleteConfirmationModal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Customers\\DeleteConfirmationModal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Customers\\DeleteConfirmationModal.jsx",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:04:30.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Customer.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:24:53.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SaleList.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Sale\\SaleList.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Sale\\SaleList.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Sale\\SaleList.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Sale\\SaleList.jsx",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAwFgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-07-04T03:34:10.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductList.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Products\\ProductList.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Products\\ProductList.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Products\\ProductList.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Products\\ProductList.jsx",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:53:21.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StoreList.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Store\\StoreList.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Store\\StoreList.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Store\\StoreList.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Store\\StoreList.jsx",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAwGMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-30T03:29:45.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Program.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Program.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:29:46.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerModal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Customers\\CustomerModal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Customers\\CustomerModal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Customers\\CustomerModal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Customers\\CustomerModal.jsx",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAAwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T11:51:59.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerList.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Customers\\CustomerList.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Customers\\CustomerList.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Customers\\CustomerList.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Customers\\CustomerList.jsx",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwEgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T11:47:52.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "customerSlice.js",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\customerSlice.js",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\redux\\customerSlice.js",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\customerSlice.js",
+              "RelativeToolTip": "storemanagerapp.client\\src\\redux\\customerSlice.js",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-29T11:56:04.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerPage.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\CustomerPage.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\pages\\CustomerPage.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\CustomerPage.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\pages\\CustomerPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:31:07.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T11:25:34.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.dgml",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\AppDbContext.dgml",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\AppDbContext.dgml",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\AppDbContext.dgml",
+              "RelativeToolTip": "StoreManagerApp.Server\\AppDbContext.dgml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000968|",
+              "WhenOpened": "2025-07-04T04:08:06.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250629225927_AddProductsStoresSales.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Migrations\\20250629225927_AddProductsStoresSales.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Migrations\\20250629225927_AddProductsStoresSales.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Migrations\\20250629225927_AddProductsStoresSales.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Migrations\\20250629225927_AddProductsStoresSales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:59:28.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SaleModal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Sale\\SaleModal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Sale\\SaleModal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Sale\\SaleModal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Sale\\SaleModal.jsx",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-30T04:10:37.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DeleteConfirmationModal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Store\\DeleteConfirmationModal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Store\\DeleteConfirmationModal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Store\\DeleteConfirmationModal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Store\\DeleteConfirmationModal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-30T03:30:44.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductModal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Products\\ProductModal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Products\\ProductModal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Products\\ProductModal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Products\\ProductModal.jsx",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:54:10.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "productSlice.js",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\productSlice.js",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\redux\\productSlice.js",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\productSlice.js",
+              "RelativeToolTip": "storemanagerapp.client\\src\\redux\\productSlice.js",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-29T12:51:55.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "saleSlice.js",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\saleSlice.js",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\redux\\saleSlice.js",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\saleSlice.js",
+              "RelativeToolTip": "storemanagerapp.client\\src\\redux\\saleSlice.js",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-04T03:32:27.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Storemodal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Store\\Storemodal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Store\\Storemodal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Store\\Storemodal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Store\\Storemodal.jsx",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-30T03:29:02.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "storeSlice.js",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\storeSlice.js",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\redux\\storeSlice.js",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\storeSlice.js",
+              "RelativeToolTip": "storemanagerapp.client\\src\\redux\\storeSlice.js",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-04T03:31:55.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "store.js",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\store.js",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\redux\\store.js",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\redux\\store.js",
+              "RelativeToolTip": "storemanagerapp.client\\src\\redux\\store.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-29T12:15:03.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\main.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T11:57:08.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Navbar.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Navbar.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Navbar.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Navbar.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Navbar.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T13:12:23.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "StoreManagerApp.Server.http",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\StoreManagerApp.Server.http",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\StoreManagerApp.Server.http",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\StoreManagerApp.Server.http",
+              "RelativeToolTip": "StoreManagerApp.Server\\StoreManagerApp.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-30T07:19:02.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ProductPage.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\ProductPage.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\pages\\ProductPage.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\ProductPage.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\pages\\ProductPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:47:00.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SalePage.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\SalePage.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\pages\\SalePage.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\SalePage.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\pages\\SalePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:47:41.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StorePage.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\StorePage.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\pages\\StorePage.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\pages\\StorePage.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\pages\\StorePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:47:21.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteConfirmationModal.jsx",
+              "DocumentMoniker": "C:\\Users\\surpreetsingh\\source\\repos\\StoreManagerApp\\storemanagerapp.client\\src\\components\\Sales\\DeleteConfirmationModal.jsx",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\surpreetsingh\\source\\repos\\StoreManagerApp\\storemanagerapp.client\\src\\components\\Sales\\DeleteConfirmationModal.jsx",
+              "ToolTip": "C:\\Users\\surpreetsingh\\source\\repos\\StoreManagerApp\\storemanagerapp.client\\src\\components\\Sales\\DeleteConfirmationModal.jsx",
+              "RelativeToolTip": "..\\..\\..\\..\\surpreetsingh\\source\\repos\\StoreManagerApp\\storemanagerapp.client\\src\\components\\Sales\\DeleteConfirmationModal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-30T04:14:59.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Sale.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Models\\Sale.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Sale.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Models\\Sale.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:56:50.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DeleteConfirmationModal.jsx",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Products\\DeleteConfirmationModal.jsx",
+              "RelativeDocumentMoniker": "storemanagerapp.client\\src\\components\\Products\\DeleteConfirmationModal.jsx",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\storemanagerapp.client\\src\\components\\Products\\DeleteConfirmationModal.jsx",
+              "RelativeToolTip": "storemanagerapp.client\\src\\components\\Products\\DeleteConfirmationModal.jsx",
+              "ViewState": "AgIAACAAAAAAMzMzM7MVwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-06-29T12:56:46.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Models\\Store.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Store.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Models\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:56:30.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "StoreManagerApp.Server\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\rupin\\source\\repos\\ManagerStore\\StoreManagerApp.Server\\Models\\Product.cs",
+              "RelativeToolTip": "StoreManagerApp.Server\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T22:56:14.451Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

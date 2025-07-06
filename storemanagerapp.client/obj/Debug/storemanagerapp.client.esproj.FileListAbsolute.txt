@@ -1,0 +1,3 @@
+C:\Users\surpreetsingh\source\repos\StoreManagerApp\storemanagerapp.client\obj\Debug\storemanagerapp.client.esproj.CoreCompileInputs.cache
+C:\Users\rupin\OnboardingTask\StoreManagerApp\storemanagerapp.client\obj\Debug\storemanagerapp.client.esproj.CoreCompileInputs.cache
+C:\Users\rupin\source\repos\ManagerStore\storemanagerapp.client\obj\Debug\storemanagerapp.client.esproj.CoreCompileInputs.cache

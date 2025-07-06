@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "storemanagerapp.client\\storemanagerapp.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "StoreManagerApp.Server\\StoreManagerApp.Server.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
