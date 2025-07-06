@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "storemanagerapp.client", "storemanagerapp.client\storemanagerapp.client.esproj", "{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreManagerApp.Server", "StoreManagerApp.Server\StoreManagerApp.Server.csproj", "{15707B77-E304-4CA4-AF40-BC61A20D3D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24A0171-1A8D-13C1-EAA9-AEB36E33B4AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{15707B77-E304-4CA4-AF40-BC61A20D3D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15707B77-E304-4CA4-AF40-BC61A20D3D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15707B77-E304-4CA4-AF40-BC61A20D3D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15707B77-E304-4CA4-AF40-BC61A20D3D20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9006A6F-198D-4DB8-86AD-48A5D6473D58}
+	EndGlobalSection
+EndGlobal
