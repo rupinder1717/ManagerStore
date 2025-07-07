@@ -1,7 +1,8 @@
 ﻿import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API = 'https://localhost:7040/api/customer';
+const API = '/api/customer'; // ✅ lets Vite proxy handle HTTP/HTTPS locally
+
 
 /* ───────── Thunks ───────── */
 export const fetchCustomers = createAsyncThunk('customers/fetch', async () => {

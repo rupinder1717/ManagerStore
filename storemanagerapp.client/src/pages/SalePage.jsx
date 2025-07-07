@@ -5,7 +5,7 @@ import SaleList from '../components/Sale/SaleList.jsx';
 const SalePage = () => {
     return (
         <>
-
+          
             <SaleList />
         </>
     );

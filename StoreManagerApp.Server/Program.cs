@@ -26,7 +26,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactClient", policy =>
     {
-        policy.WithOrigins("https://localhost:53302")  // Adjust your React app URL/port
+        policy.WithOrigins("http://localhost:53302")  // Adjust your React app URL/port
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();  // Optional
@@ -71,7 +71,7 @@ if (app.Environment.IsDevelopment())
 // Enable CORS before routing
 app.UseCors("AllowReactClient");
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
